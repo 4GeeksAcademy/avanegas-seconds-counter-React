@@ -5,12 +5,11 @@ import SecondsCounter from "./SecondsCounter";
 // import rigoImage from "../../img/rigo-baby.jpg";
 
 
-
-const Home = () => {
+const Home = (props) => {
 	return (
 		<div className="text-center">
 			<h1 className="text-center mt-5">Simple Counter!</h1>
-			<SecondsCounter digiOne={counter}/>
+			<SecondsCounter {...props} />
 		</div>
 	);
 };

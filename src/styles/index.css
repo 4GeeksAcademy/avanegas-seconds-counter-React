@@ -11,6 +11,10 @@
 
 */
 
+.bigCounter{
+    text-align: center;
+}
+
 .bigCounter div{
     display: inline-block;
     font-size: 80px;
