@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faClock} from '@fortawesome/free-solid-svg-icons'
-import Stop from "./Stop.jsx"
 
 //include images into your bundle
 // import rigoImage from "../../img/rigo-baby.jpg";
@@ -23,7 +22,6 @@ const Home = ({digitOne, digitTwo, digitThree, digitFour, digitFive, digitSix}) 
             <div className="two">{digitTwo}</div>
             <div className="one">{digitOne}</div>
         </div>
-			<Stop/>
 		</div>
 	);
 };
